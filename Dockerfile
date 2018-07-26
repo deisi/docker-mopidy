@@ -22,10 +22,11 @@ RUN set -ex \
  && curl -L https://bootstrap.pypa.io/get-pip.py | python - \
  && pip install -U six \
  && pip install \
-        Mopidy-Moped \
+        Mopidy-MusicBox-Webclient \
         Mopidy-GMusic \
         Mopidy-Pandora \
-        Mopidy-YouTube \
+        #Mopidy-YouTube \
+        Mopidy-TuneIn \
         cryptography \
         pyasn1 \
         pyopenssl \
