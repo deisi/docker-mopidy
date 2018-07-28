@@ -25,10 +25,10 @@ RUN set -ex \
         Mopidy-MusicBox-Webclient \
         Mopidy-GMusic \
         Mopidy-Pandora \
-        #Mopidy-YouTube \
+        Mopidy-YouTube \
         Mopidy-TuneIn \
-        cryptography \
-        pyasn1 \
+        cryptography==2.3 \
+        pyasn1==0.4.4 \
         pyopenssl \
         requests[security] \
         youtube-dl \
