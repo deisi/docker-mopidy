@@ -59,7 +59,7 @@ RUN set -ex \
 # Runs as mopidy user by default.
 USER mopidy
 
-VOLUME ["/var/lib/mopidy/local", "/var/lib/mopidy/media"]
+VOLUME ["/var/lib/mopidy"]
 
 EXPOSE 6600 6680 5555/udp
 
